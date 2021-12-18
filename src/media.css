@@ -29,6 +29,9 @@
   /* .offer__body {
     flex-direction: column;
   } */
+  .parameters__container {
+    width: 100%;
+  }
   .offer__title {
     font-size: 24px;
     line-height: 32px;
@@ -71,9 +74,9 @@
     width: 24px;
     height: 24px;
   }
-  .offer__parameters {
+  /* .offer__parameters {
     margin-right: 100px;
-  }
+  } */
 }
 @media (max-width: 450px) {
   .offer__parameters {

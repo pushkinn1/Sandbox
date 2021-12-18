@@ -115,11 +115,11 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  align-items: center;
 }
 .offer__parameters {
   font-family: Inter;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-top: 12px;
   font-style: 14px;
@@ -133,6 +133,15 @@ body {
 }
 .parameter__name {
   margin-right: 5px;
+}
+.parameter__value {
+  display: flex;
+  align-items: center;
+}
+.parameters__img {
+  width: 12px;
+  height: 12px;
+  margin-left: 6px;
 }
 .offer__img {
   margin-right: 12px;

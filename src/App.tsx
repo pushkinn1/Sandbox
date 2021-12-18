@@ -21,6 +21,7 @@ import fox from "./imgs/fox.svg";
 import flag from "./imgs/flag.svg";
 import labelimg from "./imgs/labelimg.svg";
 import question from "./imgs/question.svg";
+import parimg from "./imgs/copy.svg";
 
 export default function App() {
   return (
@@ -50,7 +51,7 @@ export default function App() {
         </HeaderSell>
       </Header>
       <OfferScreen>
-        <Offer path="file > file" time="12.12.2002" num={128822}>
+        <Offer path="file > file" time="12.12.2002" num={128822} img={parimg}>
           <OfferTitle img={labelimg} text="Create bid" />
           <OfferMark text="part sell offer" />
           <OfferTutor text="How to use?" img={question} />
