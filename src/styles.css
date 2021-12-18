@@ -1,13 +1,38 @@
 body {
   background-color: black;
+  color: white;
 }
 .wrapper {
   max-width: 1100px;
   margin: 0 auto;
 }
-
 .header__wrapper {
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
+  align-items: center;
+}
+.header__sell {
+  display: flex;
+  justify-content: space-between;
+}
+.header__sell_medium {
+  min-width: 300px;
+}
+.header__logo {
+  margin-right: 71px;
+}
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__li span.text {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-right: 48px;
+  font-family: "Eurofont";
+}
+.nav__li_hot {
+  position: relative;
+  bottom: 2px;
 }
