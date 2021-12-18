@@ -1,4 +1,4 @@
 @font-face {
   font-family: "Eurofont";
-  src: "./EUROFONT.ttf";
+  src: url("./eurofont.otf");
 }

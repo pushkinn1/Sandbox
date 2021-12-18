@@ -1,8 +1,12 @@
 import React from "react";
-import "./styles.css";
+import "../styles.css";
 
 export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
-  return <div className="wrapper header__wrapper">{props.children}</div>;
+  return (
+    <header className="header">
+      <div className="wrapper header__wrapper">{props.children}</div>
+    </header>
+  );
 };
 
 interface HeaderProps {
