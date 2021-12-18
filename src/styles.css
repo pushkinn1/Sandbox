@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
