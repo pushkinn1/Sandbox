@@ -15,6 +15,7 @@ import { Offer } from "./OfferComponents/Offer";
 import { OfferTitle } from "./OfferComponents/OfferTitle";
 import { OfferMark } from "./OfferComponents/OfferMark";
 import { OfferTutor } from "./OfferComponents/OfferTutor";
+import { Clickable } from "./AppComponents/Clickable";
 import logo from "./imgs/logo.svg";
 import currency from "./imgs/rect.svg";
 import fox from "./imgs/fox.svg";
@@ -30,9 +31,9 @@ export default function App() {
         <HeaderSell>
           <HeaderLogo url={logo} alt="logo" />
           <HeaderNavbar>
-            <NavLink text="otc desk" variant="regular" />
-            <NavLink text="my dashboard" variant="dotted" />
-            <NavLink text="create offer" variant="hot" />
+            <NavLink pageUrl="#" text="otc desk" variant="regular" />
+            <NavLink pageUrl="#" text="my dashboard" variant="dotted" />
+            <NavLink pageUrl="#" text="create offer" variant="hot" />
           </HeaderNavbar>
         </HeaderSell>
         <HeaderSell>
