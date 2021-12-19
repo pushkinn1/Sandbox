@@ -76,8 +76,25 @@ body {
 .support__sell:not(:last-of-type) {
   margin-right: 36px;
 }
+.support__sell {
+  cursor: pointer;
+}
+.support__light-txt {
+  transition-duration: 0.5s;
+}
+.support__light-txt:hover {
+  opacity: 0.8;
+}
 .header__icon {
   background-color: rgba(37, 38, 40, 0.5);
+}
+.header__icon_simple {
+  cursor: pointer;
+  transition-duration: 0.5s;
+}
+.header__icon_simple:hover {
+  transform: scale(1.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 .header__icon_complex {
   display: flex;

@@ -9,13 +9,13 @@ export const SupportSell: React.FC<ISupportSell> = ({
     case "regular":
       return (
         <div className="support__sell support__sell_regular">
-          <span className="light-txt">{text}</span>
+          <span className="light-txt support__light-txt">{text}</span>
         </div>
       );
     case "menu":
       return (
         <div className="support__sell support__sell_menu">
-          <span className="light-txt">{text}</span>
+          <span className="light-txt support__light-txt">{text}</span>
           <img src={arrow} alt="" className="support__img" />
         </div>
       );
